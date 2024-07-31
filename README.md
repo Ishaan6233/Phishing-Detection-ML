@@ -9,19 +9,8 @@ Our goal is to build a binary classification model that can predict whether a ne
 ### This project utilizes a Logistic Regression model to classify emails as either spam or ham. The dataset used for training and testing the model is preprocessed and includes various steps such as data cleaning, feature extraction, and model evaluation.
 The project's pipeline includes:
 
-Data Preprocessing: Loading and cleaning the dataset, handling missing values, and encoding labels.
-Feature Extraction: Converting text data into numerical data using CountVectorizer.
-### Model Training: Training a Logistic Regression model.
-### Model Evaluation: Evaluating the model using cross-validation, classification report, ROC curve, and confusion matrix.
-### Manual Testing: Providing a function to manually test new email messages.
-
-## Requirements
-Python 3.x
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-nltk
-statsmodels
-Google Colab (for mounting Google Drive)
+#### Data Preprocessing: Loading and cleaning the dataset, handling missing values, and encoding labels.
+#### Feature Extraction: Converting text data into numerical data using CountVectorizer.
+#### Model Training: Training a Logistic Regression model.
+#### Model Evaluation: Evaluating the model using cross-validation, classification report, ROC curve, and confusion matrix.
+#### Manual Testing: Providing a function to manually test new email messages.
